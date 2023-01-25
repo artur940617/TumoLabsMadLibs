@@ -1,6 +1,6 @@
 from tkinter import *
 
-# initialize window
+# initialize window.
 root = Tk()
 root.geometry('300x300')
 root.title('Tumo Labs Mad Libs Generator')
@@ -92,7 +92,7 @@ def madlib3():
         f'{Noun_Plural4}. It feels as though I have lived here for {Number} {Measure_of_time}. I hope one day you can'
         f'visit, although the only way to get here now is {Verb_ing}  on a {Adjective5} {Noun5} !!')
 
-
+# Button.
 
 Button(root, text='Hospital', font='arial 15', command=madlib1).place(x=100, y=130)
 Button(root, text='Camping', font='arial 15', command=madlib2).place(x=100, y=180)
